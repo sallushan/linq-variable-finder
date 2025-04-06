@@ -1,0 +1,46 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Rider / VSCode / VS for Mac
+.idea/
+.vscode/
+*.code-workspace
+
+# BenchmarkDotNet Artifacts
+BenchmarkDotNet.Artifacts/
+
+# Auto-generated files by benchmarking or tooling
+*.benchmarkDotNet.*.json
+*.log
+*.vs/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Global JetBrains Rider Ignore
+*.ReSharper
+*.DotSettings.user
+_ReSharper*/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.symbols.nupkg
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Publish output
+publish/
